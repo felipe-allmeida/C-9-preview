@@ -10,7 +10,7 @@ Testing some features of the C# 9 preview release 05/19/2020
 ## Creating the project
 
 Create a Console application and update the `.csproj` to the following:
-```C#
+```xml
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>Exe</OutputType>
