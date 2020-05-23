@@ -12,12 +12,10 @@ Testing some features of the C# 9 preview release 05/19/2020
 Create a Console application and update the `.csproj` to the following:
 ```C#
 <Project Sdk="Microsoft.NET.Sdk">
-
-	<PropertyGroup>
-		<OutputType>Exe</OutputType>
-		<TargetFramework>net5.0</TargetFramework>
-		<LangVersion>preview</LangVersion>
-  </PropertyGroup>
-
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <LangVersion>preview</LangVersion>
+    </PropertyGroup>
 </Project>
 ```
